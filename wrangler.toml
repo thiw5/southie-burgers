@@ -1,0 +1,15 @@
+name = "southie-burgers"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "southie-burgers-db"
+database_id = "d3442640-ed05-4674-b3b7-698bddb6ff36"
+
+[[r2_buckets]]
+binding = "PHOTOS"
+bucket_name = "southie-burgers-photos"
+
+[vars]
+SITE_NAME = "Best Burger in Southie"
