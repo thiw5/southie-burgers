@@ -2,6 +2,8 @@ name = "southie-burgers"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
 
+# Workers Builds enabled: pushes to main auto-deploy via Cloudflare CI.
+
 [[d1_databases]]
 binding = "DB"
 database_name = "southie-burgers-db"
